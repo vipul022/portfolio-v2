@@ -1,0 +1,29 @@
+@import "../abstracts/variables";
+body {
+  font-family: "Montserrat", sans-serif;
+  // font-weight: 700;
+  line-height: 1.7;
+  color: $color-grey-dark-3;
+  box-sizing: border-box;
+}
+
+.heading-primary {
+  color: $color-white;
+  margin-bottom: 6rem;
+  backface-visibility: hidden;
+
+  &--main {
+    display: block;
+    letter-spacing: 2rem;
+    font-size: 6rem;
+    font-weight: 600;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 1.5rem;
+    letter-spacing: 0.45rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}

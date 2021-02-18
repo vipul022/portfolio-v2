@@ -2,15 +2,18 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header class="header">
+    <header className="header">
       <div className="header__text-box">
         <h1 className="heading-primary">
-          <span className="heading-primary--main">Hi, my name is Vipul</span>
+          <span className="heading-primary--main">VIPUL SETH</span>
+          {/* Hi, my name is Vipul */}
           <span className="heading-primary--sub">
-            full stack developer based in melbourne
+            full stack developer based in Melbourne
           </span>
         </h1>
-        <a href="#" className="btn btn--white">About me</a>
+        <a href="#" className="btn btn--white">
+          About me
+        </a>
       </div>
     </header>
   );
