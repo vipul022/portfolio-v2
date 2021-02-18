@@ -1,9 +1,10 @@
 import React from "react";
+import { Container } from "@material-ui/core";
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__text-box">
+      <Container className="header__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">VIPUL SETH</span>
           {/* Hi, my name is Vipul */}
@@ -14,7 +15,7 @@ const Header = () => {
         <a href="#" className="btn btn--white">
           know more
         </a>
-      </div>
+      </Container>
     </header>
   );
 };
