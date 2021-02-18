@@ -17,6 +17,8 @@ body {
     letter-spacing: 2rem;
     font-size: 6rem;
     font-weight: 600;
+
+    animation: moveInLeft 3s ease-out;
   }
 
   &--sub {
@@ -25,5 +27,7 @@ body {
     letter-spacing: 0.45rem;
     font-weight: 400;
     text-transform: uppercase;
+
+    animation: moveInRight 3s ease-out;
   }
 }
