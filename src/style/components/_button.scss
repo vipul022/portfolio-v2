@@ -30,11 +30,11 @@
   &--white {
     background-color: $color-white;
     color: $color-grey-dark-2;
+    // color: $color-primary-dark;
     // color: $color-primary-light-1;
     font-weight: 600;
     letter-spacing: 0.1rem;
     animation: moveInBottom 3s ease-out;
     position: sticky;
-    // backface-visibility: hidden;
   }
 }

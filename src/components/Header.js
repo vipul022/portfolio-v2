@@ -12,7 +12,7 @@ const Header = () => {
             full stack developer based in Melbourne
           </span>
         </h1>
-        <a href="#" className="btn btn--white">
+        <a href="#about-me" className="btn btn--white">
           know more
         </a>
       </Container>

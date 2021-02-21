@@ -31,3 +31,28 @@ body {
     animation: moveInRight 3s ease-out;
   }
 }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba($color-primary-light-1, 0.8),
+    rgba($color-primary-dark, 0.8)
+  );
+  // !this will clip the background image to text only
+  -webkit-background-clip: text;
+  letter-spacing: 1rem;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+  }
+}
+.text {
+  color: $color-primary-dark;
+  font-size: 2rem;
+}
+
