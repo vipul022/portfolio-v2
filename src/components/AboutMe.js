@@ -8,7 +8,7 @@ const AboutMe = () => {
       <Container maxWidth={"md"}>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Fade delay={300}>
+            <Fade big delay={300}>
               <div className="u-center-text u-margin-bottom-big">
                 <h1 id="about-me" className="heading-secondary">
                   About Me
@@ -16,7 +16,7 @@ const AboutMe = () => {
               </div>
             </Fade>
 
-            <Fade delay={600}>
+            <Fade big delay={600}>
               <div>
                 <p class="text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
