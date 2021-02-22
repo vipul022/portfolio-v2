@@ -5,10 +5,10 @@ import { Fade } from "react-reveal";
 const AboutMe = () => {
   return (
     <section className="section-about">
-      <Container >
+      <Container>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Fade big delay={300}>
+            <Fade top distance={"4rem"} delay={300}>
               <div className="u-center-text u-margin-bottom-big">
                 <h1 id="about-me" className="heading-secondary">
                   About Me
@@ -16,7 +16,7 @@ const AboutMe = () => {
               </div>
             </Fade>
 
-            <Fade big delay={600}>
+            <Fade bottom distance={"4rem"} delay={600}>
               <div className="u-padding">
                 <p class="text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
