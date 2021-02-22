@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 const AboutMe = () => {
   return (
     <section className="section-about">
-      <Container maxWidth={"md"}>
+      <Container >
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <Fade big delay={300}>
@@ -17,7 +17,7 @@ const AboutMe = () => {
             </Fade>
 
             <Fade big delay={600}>
-              <div>
+              <div className="u-padding">
                 <p class="text">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                   sed animi quod! A obcaecati delectus ipsa excepturi asperiores
