@@ -1,13 +1,19 @@
 @import "../abstracts/variables";
 
 .header {
-  height: 95vh;
-  // font-size: $default-font-size;
+  height: 100vh;
+  // padding: 6rem;
+  font-size: $default-font-size;
   background-image: linear-gradient(
     to right bottom,
-    rgba($color-primary-dark, 0.8),
-    rgba($color-primary-light-1, 0.8)
+    rgba($color-primary-light-1, 0.8),
+    rgba($color-primary-dark, 0.8)
   );
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   $color-primary-light-1,
+  //   $color-primary-dark
+  // );
   // display: flex;
   // justify-content: center;
   // align-items: center;
@@ -15,7 +21,7 @@
   /* clip-path property is used to change the shape of the container to polygon by specifying the change that is required on (x, y) axis of all 4 corners of the polygon. Top left corner is the first corner and it continuos clockwise Refer: Building the Header- Part1 from 18:20 */
   /* https://bennettfeely.com/clippy/ */
   /* clip-path: polygon(x y, x y, x y, x y); */
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
   &__text-box {
     position: absolute;
     top: 40%;

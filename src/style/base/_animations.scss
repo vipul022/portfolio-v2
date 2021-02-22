@@ -1,0 +1,49 @@
+@keyframes moveInLeft {
+  /* 0% is before the start of animations */
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+    /* can also use rotate property  */
+    /* transform: translateX(-100px) rotate(0deg); */
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  /* 100% is when the animation ends */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  /* 0% is before the start of animations */
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  /* 100% is when the animation ends */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  /* 0% is before the start of animations */
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+  80% {
+    transform: translateY(-1rem);
+  }
+  /* 100% is when the animation ends */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
