@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import { Fade } from "react-reveal";
+import HeadingSecondary from "./HeadingSecondary";
 
 const AboutMe = () => {
   return (
@@ -8,13 +9,7 @@ const AboutMe = () => {
       <Container>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Fade top distance={"4rem"} delay={300}>
-              <div className="u-center-text u-margin-bottom-big">
-                <h1 id="about-me" className="heading-secondary">
-                  About Me
-                </h1>
-              </div>
-            </Fade>
+            <HeadingSecondary>About me</HeadingSecondary>
 
             <Fade bottom distance={"4rem"} delay={600}>
               <div className="u-padding">

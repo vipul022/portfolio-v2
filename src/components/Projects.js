@@ -7,16 +7,13 @@ import expressChatImage from "../images/express-chat.png";
 import farmerSmartImage from "../images/farmer-smart.png";
 import weatherAppImage from "../images/weather-app.png";
 import portfolioImageV1 from "../images/portfolio-v1.png";
+import HeadingSecondary from "./HeadingSecondary";
 
 const Projects = () => {
   return (
     <section className="section-projects">
       <Container>
-        <Fade top distance={"4rem"} delay={300}>
-          <div className="u-center-text u-margin-bottom-big">
-            <h1 className="heading-secondary">Projects</h1>
-          </div>
-        </Fade>
+        <HeadingSecondary>About me</HeadingSecondary>
         <div className="u-padding">
           <Grid container spacing={6} className="u-margin-bottom-big">
             <Grid item xs={12} sm={8}>
