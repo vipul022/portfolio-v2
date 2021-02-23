@@ -1,4 +1,4 @@
-.card {
+.card-project-image {
   position: relative;
 
   &__img {
@@ -7,4 +7,9 @@
     object-fit: cover;
     object-position: center;
   }
+}
+.card-project-info {
+  padding: 1.5rem;
+  text-align: center;
+  // height: 20rem;
 }

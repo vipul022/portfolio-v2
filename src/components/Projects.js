@@ -9,12 +9,12 @@ import weatherAppImage from "../images/weather-app.png";
 import portfolioImageV1 from "../images/portfolio-v1.png";
 import HeadingSecondary from "./HeadingSecondary";
 import ProjectImage from "./ProjectImage";
-
+import { Paper, Typography } from "@material-ui/core";
 const Projects = () => {
   return (
     <section className="section-projects">
       <Container>
-        <HeadingSecondary>About me</HeadingSecondary>
+        <HeadingSecondary>projects</HeadingSecondary>
         <div className="u-padding">
           <Grid container spacing={6} className="u-margin-bottom-big">
             <Grid item xs={12} sm={8}>
@@ -25,12 +25,33 @@ const Projects = () => {
             </Grid>
             <Grid item xs={12} sm={4}>
               <Fade right distance={"4rem"} delay={1000}>
-                <h1>
+                <Paper elevation={3} className="card-project-info">
+                  <Grid container spacing={3}>
+                    <Grid item xs={12}>
+                      <h1 className="heading-tertiary">Portfolio v-2</h1>
+                    </Grid>
+                  </Grid>
+                  <Grid container spacing={3}>
+                    <Grid item xs={12}>
+                      <p className="text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Quia, ipsam praesentium facilis atque, voluptate,
+                        eius repellendus soluta iure corrupti veniam delectus!
+                        Soluta, quia omnis. Doloribus eos, tempora doloremque
+                        sequi praesentium mollitia dolorem blanditiis ipsum,
+                        commodi dicta excepturi officia et atque voluptates
+                        repellat sint neque placeat eius dolore. Eligendi, enim
+                        architecto!
+                      </p>
+                    </Grid>
+                  </Grid>
+                </Paper>
+                {/* <h1>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Laboriosam nemo qui soluta sunt rerum quidem beatae
                   praesentium odio vero quam quasi voluptates laudantium eveniet
                   rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+                </h1> */}
               </Fade>
             </Grid>
           </Grid>
