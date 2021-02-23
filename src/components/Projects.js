@@ -8,7 +8,9 @@ import farmerSmartImage from "../images/farmer-smart.png";
 import weatherAppImage from "../images/weather-app.png";
 import portfolioImageV1 from "../images/portfolio-v1.png";
 import HeadingSecondary from "./HeadingSecondary";
+import HeadingTertiary from "./HeadingTertiary";
 import ProjectImage from "./ProjectImage";
+import ProjectDescription from "./ProjectDescription";
 
 const Projects = () => {
   return (
@@ -26,22 +28,15 @@ const Projects = () => {
             <Grid item xs={12} sm={4}>
               <Fade right distance={"4rem"} delay={1000}>
                 <Paper elevation={3} className="card-project-info">
-                  <Grid container spacing={3}>
-                    <Grid item xs={12}>
-                      <h1 className="heading-tertiary">Portfolio v-2</h1>
-                    </Grid>
-                  </Grid>
-                  <Grid container spacing={3}>
-                    <Grid item xs={12}>
-                      <p className="text-secondary">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Quia, ipsam praesentium facilis atque, voluptate,
-                        eius repellendus soluta iure corrupti veniam delectus!
-                        Soluta, quia omnis. Doloribus eos, tempora doloremque
-                        sequi praesentium mollitia dolorem blanditiis ipsum,
-                      </p>
-                    </Grid>
-                  </Grid>
+                  <HeadingTertiary>Portfolio v-2</HeadingTertiary>
+                  <ProjectDescription>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quia, ipsam praesentium facilis atque, voluptate, eius
+                    repellendus soluta iure corrupti veniam delectus! Soluta,
+                    quia omnis. Doloribus eos, tempora doloremque sequi
+                    praesentium mollitia dolorem blanditiis ipsum,
+                  </ProjectDescription>
+
                   <Grid container spacing={3}>
                     <Grid item xs={4} className="icon">
                       <i class="devicon-react-original-wordmark colored"></i>
