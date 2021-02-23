@@ -64,7 +64,8 @@ body {
   );
   // !this will clip the background image to text only
   -webkit-background-clip: text;
-  // letter-spacing: .25rem;
+  display: inline-block;
+  margin: 0 auto;
   transition: all 0.5s;
 
   &:hover {
@@ -73,13 +74,16 @@ body {
 }
 .text-primary {
   color: $color-primary-dark;
+  // color: $color-grey-dark-2;
+  font-weight: 400;
   font-size: 2rem;
 }
 
 .text-secondary {
   color: $color-primary-dark;
+  // color: $color-grey-dark-2;
   font-size: 1.5rem;
-  // font-weight: bold;
+  font-weight: 400;
 }
 
 .icon {
