@@ -79,8 +79,9 @@ body {
 .text-secondary {
   color: $color-primary-dark;
   font-size: 1.5rem;
+  // font-weight: bold;
 }
-// .experiment {
-//   width: 75%;
-//   margin: 0 auto;
-// }
+
+.icon {
+  font-size: 5rem;
+}

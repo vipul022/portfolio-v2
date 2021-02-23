@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
 import portfolioImage from "../images/portfolio-v2.png";
 import potteryClubImage from "../images/sotrpc.png";
@@ -9,7 +9,7 @@ import weatherAppImage from "../images/weather-app.png";
 import portfolioImageV1 from "../images/portfolio-v1.png";
 import HeadingSecondary from "./HeadingSecondary";
 import ProjectImage from "./ProjectImage";
-import { Paper, Typography } from "@material-ui/core";
+
 const Projects = () => {
   return (
     <section className="section-projects">
@@ -39,19 +39,21 @@ const Projects = () => {
                         eius repellendus soluta iure corrupti veniam delectus!
                         Soluta, quia omnis. Doloribus eos, tempora doloremque
                         sequi praesentium mollitia dolorem blanditiis ipsum,
-                        commodi dicta excepturi officia et atque voluptates
-                        repellat sint neque placeat eius dolore. Eligendi, enim
-                        architecto!
                       </p>
                     </Grid>
                   </Grid>
+                  <Grid container spacing={3}>
+                    <Grid item xs={4} className="icon">
+                      <i class="devicon-react-original-wordmark colored"></i>
+                    </Grid>
+                    <Grid item xs={4} className="icon">
+                      <i class="devicon-sass-original colored"></i>
+                    </Grid>
+                    <Grid item xs={4} className="icon">
+                      <i class="devicon-materialui-plain colored"></i>
+                    </Grid>
+                  </Grid>
                 </Paper>
-                {/* <h1>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1> */}
               </Fade>
             </Grid>
           </Grid>
@@ -66,12 +68,13 @@ const Projects = () => {
 
             <Grid item xs={12} sm={4}>
               <Fade right distance={"4rem"} delay={1000}>
-                <h1>
+                <p className="text-secondary">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+                  Quia, ipsam praesentium facilis atque, voluptate, eius
+                  repellendus soluta iure corrupti veniam delectus! Soluta, quia
+                  omnis. Doloribus eos, tempora doloremque sequi praesentium
+                  mollitia dolorem blanditiis ipsum,
+                </p>
               </Fade>
             </Grid>
           </Grid>
