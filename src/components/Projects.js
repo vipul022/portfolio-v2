@@ -34,7 +34,9 @@ const Projects = () => {
                     Quia, ipsam praesentium facilis atque, voluptate, eius
                     repellendus soluta iure corrupti veniam delectus! Soluta,
                     repellendus soluta iure corrupti veniam delectus! Soluta,
-                    repellendus soluta iure corrupti veniam delectus! Soluta,
+                    repellendus soluta iure corrupti veniam delectus!
+                    Soluta,repellendus soluta iure corrupti veniam delectus!
+                    Soluta,
                   </ProjectDescription>
 
                   <Grid container={true} justify={"space-evenly"} spacing={2}>
@@ -76,7 +78,8 @@ const Projects = () => {
                     elit. Quia, Lorem ipsum dolor sit, amet consectetur
                     adipisicing elit. Quia, Lorem ipsum dolor sit, amet
                     consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
-                    amet consectetur adipisicing elit. Quia,
+                    amet consectetur adipisicing elit. Quia,consectetur
+                    adipisicing elit. Quia, Lorem ipsum
                   </ProjectDescription>
 
                   <Grid container={true} justify={"space-evenly"} spacing={2}>
@@ -108,17 +111,49 @@ const Projects = () => {
             <Grid item xs={12} md={7} sm={12}>
               <ProjectImage
                 ImageSrc={expressChatImage}
-                ImageAlt="Express Chat ap"
+                ImageAlt="Express Chat app"
               />
             </Grid>
             <Grid item xs={12} md={5} sm={12}>
-              <Fade right distance={"4rem"} delay={1000}>
-                <h1>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+              <Fade
+                right
+                distance={"4rem"}
+                delay={1000}
+                className="card-project-image"
+              >
+                <Paper elevation={3} className="card-project-info">
+                  <HeadingTertiary>Express Chat</HeadingTertiary>
+                  <ProjectDescription>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quia, Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quia, Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia, Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Quia,consectetur
+                    adipisicing elit. Quia, Lorem ipsum
+                  </ProjectDescription>
+
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-javascript-plain colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} item className="icon">
+                      <i class="devicon-express-original colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                    </Grid>
+                  </Grid>
+                </Paper>
               </Fade>
             </Grid>
           </Grid>
@@ -129,13 +164,37 @@ const Projects = () => {
             </Grid>
 
             <Grid item item xs={12} md={5} sm={12}>
-              <Fade right distance={"4rem"} delay={1000}>
-                <h1>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+              <Fade
+                right
+                distance={"4rem"}
+                delay={1000}
+                className="card-project-image"
+              >
+                <Paper elevation={3} className="card-project-info">
+                  <HeadingTertiary>Weather or Not</HeadingTertiary>
+                  <ProjectDescription>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quia, Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quia, Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia, Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Quia,consectetur
+                    adipisicing elit. Quia, Lorem ipsum
+                  </ProjectDescription>
+
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-javascript-plain colored"></i>
+                    </Grid>
+
+                    <Grid item={true} className="icon">
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                    </Grid>
+                  </Grid>
+                </Paper>
               </Fade>
             </Grid>
           </Grid>
@@ -148,13 +207,40 @@ const Projects = () => {
               />
             </Grid>
             <Grid item item xs={12} md={5} sm={12}>
-              <Fade right distance={"4rem"} delay={1000}>
-                <h1>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+              <Fade
+                right
+                distance={"4rem"}
+                delay={1000}
+                className="card-project-image"
+              >
+                <Paper elevation={3} className="card-project-info">
+                  <HeadingTertiary>FarmerSmart</HeadingTertiary>
+                  <ProjectDescription>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quia, Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quia, Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia, Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Quia,consectetur
+                    adipisicing elit. Quia, Lorem ipsum
+                  </ProjectDescription>
+
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-rails-plain-wordmark colored"></i>
+                    </Grid>
+
+                    <Grid item={true} className="icon">
+                      <i class="devicon-postgresql-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    </Grid>
+                  </Grid>
+                </Paper>
               </Fade>
             </Grid>
           </Grid>
@@ -168,13 +254,33 @@ const Projects = () => {
             </Grid>
 
             <Grid item item xs={12} md={5} sm={12}>
-              <Fade right distance={"4rem"} delay={1000}>
-                <h1>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laboriosam nemo qui soluta sunt rerum quidem beatae
-                  praesentium odio vero quam quasi voluptates laudantium eveniet
-                  rem sint, molestiae voluptatibus possimus doloremque.
-                </h1>
+              <Fade
+                right
+                distance={"4rem"}
+                delay={1000}
+                className="card-project-image"
+              >
+                <Paper elevation={3} className="card-project-info">
+                  <HeadingTertiary>Portfolio Version-1</HeadingTertiary>
+                  <ProjectDescription>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quia, Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quia, Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia, Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Quia,consectetur
+                    adipisicing elit. Quia, Lorem ipsum
+                  </ProjectDescription>
+
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                    </Grid>
+                    <Grid item={true} className="icon">
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                    </Grid>
+                  </Grid>
+                </Paper>
               </Fade>
             </Grid>
           </Grid>
