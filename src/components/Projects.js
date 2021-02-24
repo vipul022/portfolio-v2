@@ -37,14 +37,14 @@ const Projects = () => {
                     repellendus soluta iure corrupti veniam delectus! Soluta,
                   </ProjectDescription>
 
-                  <Grid container spacing={6}>
-                    <Grid item xs={4} className="icon">
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
                       <i class="devicon-react-original-wordmark colored"></i>
                     </Grid>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-sass-original colored"></i>
                     </Grid>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-materialui-plain colored"></i>
                     </Grid>
                   </Grid>
@@ -72,29 +72,30 @@ const Projects = () => {
                   <HeadingTertiary>MERN Stack App</HeadingTertiary>
                   <ProjectDescription>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quia,
+                    Quia, Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quia, Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quia, Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Quia, Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Quia,
                   </ProjectDescription>
 
-                  <Grid container spacing={6}>
-                    <Grid item xs={4} className="icon">
+                  <Grid container={true} justify={"space-evenly"} spacing={2}>
+                    <Grid item={true} className="icon">
                       <i class="devicon-mongodb-plain-wordmark colored"></i>
                     </Grid>
-                    <Grid item item xs={4} className="icon">
+                    <Grid item={true} item className="icon">
                       <i class="devicon-express-original colored"></i>
                     </Grid>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-react-original-wordmark colored"></i>
                     </Grid>
-                  </Grid>
-
-                  <Grid container spacing={6}>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-nodejs-plain-wordmark colored"></i>
                     </Grid>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
                     </Grid>
-                    <Grid item xs={4} className="icon">
+                    <Grid item={true} className="icon">
                       <i class="devicon-sass-original colored"></i>
                     </Grid>
                   </Grid>
