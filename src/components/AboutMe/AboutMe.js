@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import { Fade } from "react-reveal";
-import HeadingSecondary from "./HeadingSecondary";
+import HeadingSecondary from "../Headings/HeadingSecondary";
 
 const AboutMe = () => {
   return (
@@ -13,21 +13,21 @@ const AboutMe = () => {
 
             <Fade bottom distance={"4rem"} delay={600}>
               <div className="u-padding">
-                <p class="text">
+                <p class="text-primary">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                   sed animi quod! A obcaecati delectus ipsa excepturi asperiores
                   exercitationem eos labore fugit sint! Nesciunt quam corporis
                   debitis? Sint ipsam tenetur laudantium magnam. Tempora
                   recusandae, ipsum a dolores error similique doloremque.
                 </p>
-                <p class="text">
+                <p class="text-primary">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                   sed animi quod! A obcaecati delectus ipsa excepturi asperiores
                   exercitationem eos labore fugit sint! Nesciunt quam corporis
                   debitis? Sint ipsam tenetur laudantium magnam. Tempora
                   recusandae, ipsum a dolores error similique doloremque.
                 </p>
-                <p class="text">
+                <p class="text-primary">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                   sed animi quod! A obcaecati delectus ipsa excepturi asperiores
                   exercitationem eos labore fugit sint! Nesciunt quam corporis

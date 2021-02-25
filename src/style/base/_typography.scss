@@ -51,11 +51,41 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
   }
 }
-.text {
+
+.heading-tertiary {
+  font-size: 2rem;
+  // text-transform: uppercase;
+  display: inline-block;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba($color-primary-light-1, 0.8),
+    rgba($color-primary-dark, 0.8)
+  );
+  // !this will clip the background image to text only
+  -webkit-background-clip: text;
+  display: inline-block;
+  margin: 0 auto;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+  }
+}
+.text-primary {
   color: $color-primary-dark;
+  // color: $color-grey-dark-2;
+  font-weight: 400;
   font-size: 2rem;
 }
-// .experiment {
-//   width: 75%;
-//   margin: 0 auto;
-// }
+
+.text-secondary {
+  color: $color-primary-dark;
+  // color: $color-grey-dark-2;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 5rem;
+}
