@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
-import portfolioImage from "../images/portfolio-v2.png";
-import potteryClubImage from "../images/sotrpc.png";
-import expressChatImage from "../images/express-chat.png";
-import farmerSmartImage from "../images/farmer-smart.png";
-import weatherAppImage from "../images/weather-app.png";
-import portfolioImageV1 from "../images/portfolio-v1.png";
-import HeadingSecondary from "./HeadingSecondary";
-import HeadingTertiary from "./HeadingTertiary";
+import portfolioImage from "../../images/portfolio-v2.png";
+import potteryClubImage from "../../images/sotrpc.png";
+import expressChatImage from "../../images/express-chat.png";
+import farmerSmartImage from "../../images/farmer-smart.png";
+import weatherAppImage from "../../images/weather-app.png";
+import portfolioImageV1 from "../../images/portfolio-v1.png";
+import HeadingSecondary from "../Headings/HeadingSecondary";
+import HeadingTertiary from "../Headings/HeadingTertiary";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
 
@@ -36,7 +36,7 @@ const Projects = () => {
                     repellendus soluta iure corrupti veniam delectus! Soluta,
                     repellendus soluta iure corrupti veniam delectus!
                     Soluta,repellendus soluta iure corrupti veniam delectus!
-                    Soluta,
+                    Soluta,Soluta,repellendus
                   </ProjectDescription>
 
                   <Grid container={true} justify={"space-evenly"} spacing={2}>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.scss";
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Header from "./components/Header/Header";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
 function App() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
 import { Fade } from "react-reveal";
-import HeadingSecondary from "./HeadingSecondary";
+import HeadingSecondary from "../Headings/HeadingSecondary";
 
 const AboutMe = () => {
   return (
