@@ -1,0 +1,70 @@
+
+
+[
+    {
+      "name": "Portfolio Version-2",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+      "stack": ["React", "Sass", "MaterialUI"],
+      "github": "https://github.com/vipul022/portfolio-v2",
+      "deployed": "",
+      "image": "images/portfolio-v2.png",
+      "imageAlt": "Portfolio version-2 website"
+      
+    },
+
+    {
+    "name": "MERN Stack App",
+    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "stack": ["MongoDB", "Express", "React", "NodeJS", "Amazonwebservices", "Sass"],
+    "github": "https://github.com/vipul022/sotrpc_client",
+    "deployed": "https://southoftheriverpottersclub.herokuapp.com/",
+    "image": "images/sotrpc.png",
+    "imageAlt": "South of The River Potters Club website"
+
+    },
+
+    {
+    "name": "Express Chat",
+    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "stack": ["JavaScript" ,"MongoDB", "Express", "NodeJS", "HTML5", "CSS3"],
+    "github": "https://github.com/vipul022/chat-app",
+    "deployed": "https://calm-crag-33201.herokuapp.com/",
+    "image": "images/express-chat.png",
+    "imageAlt": "Express Chat app"
+
+    },
+
+    {
+    "name": "Weather or Not",
+    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "stack": ["JavaScript", "HTML5", "CSS3"],
+    "github": "https://github.com/vipul022/hackathon",
+    "deployed": "https://www.jasonstacy.com.au/src/assets/weather_or_not/",
+    "image": "images/weather-app.png",
+    "imageAlt": "Weather or Not website"
+
+    },
+
+    {
+    "name": "FarmerSmart",
+    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
+
+    "stack": ["Rails", "PostgreSQL", "Amazonwebservices", "Bootstrap"],
+    "github": "https://github.com/vipul022/farmersmart-",
+    "deployed": "https://secure-brook-35449.herokuapp.com/",
+    "image": "farmer-smart.png",
+    "imageAlt": " Farmer Smart website"
+
+    },
+
+    {
+    "name": "Portfolio Version-1",
+    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
+    "stack": ["HTML5", "CSS3"],
+    "github": "https://github.com/vipul022/vipul022-my-portfolio",
+    "deployed": "https://vipulseth.netlify.app/",
+    "image": "portfolio-v1.png",
+    "imageAlt": "Portfolio Version-1 website"
+
+    }
+]

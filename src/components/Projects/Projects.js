@@ -25,6 +25,7 @@ const Projects = () => {
                 ImageAlt="Portfolio version-2 website"
               />
             </Grid>
+            
             <Grid item xs={12} md={5} sm={12}>
               <Fade right distance={"4rem"} delay={1000}>
                 <Paper elevation={3} className="card-project-info">
