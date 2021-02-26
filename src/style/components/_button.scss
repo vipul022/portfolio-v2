@@ -13,7 +13,7 @@
     border: none;
     cursor: pointer;
     backface-visibility: hidden;
-    transition: all 0.2s;
+    transition: all 0.5s;
   }
 
   &:hover {
@@ -43,23 +43,23 @@
   &:visited {
     font-size: 1.25rem;
     font-weight: 700;
-    color: $color-primary-light-1;
+    // color: $color-primary-light-1;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid $color-primary-light-1;
-    padding: 3px;
-    transition: all 0.2s;
+    border-bottom: 1px solid $color-primary-light;
+    padding: 5px;
+    transition: all 0.4s;
     margin-bottom: 1rem;
     backface-visibility: hidden;
     cursor: pointer;
+
+    letter-spacing: 0.05rem;
   }
   &:hover {
-    background-color: $color-primary-light-1;
-    color: $color-white;
-    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
-    transform: translateY(-2px);
-
-    backface-visibility: hidden;
+    transform: translateX(3px);
+    border-bottom: hidden;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
   }
 
   &:active {
