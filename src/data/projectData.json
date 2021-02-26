@@ -1,38 +1,22 @@
 
 
 [
-    {
-      "name": "Portfolio Version-2",
-      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
-      "icons": ["React", "Sass", "MaterialUI"],
-      "github": "https://github.com/vipul022/portfolio-v2",
-      "deployed": "",
-      "image": "images/projects/portfolio-v2.png",
-      "imageAlt": "Portfolio version-2 website"
-      
-    },
+   
 
     {
-    "name": "MERN icons App",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "name": "South of The River Potters Club",
+    "description": " A website for South of The River Potters Club (SOTRPC) which is located in Alfred Cove, Western Australia.  They currently have a website which is linked below but were looking to make it better with additional features. This website is built in MERN stack and integrated with AWS S3 and Mongo DB Atlas and meet all their needs."
+    
+     ,
     "icons": ["MongoDB", "Express", "React", "NodeJS", "AWS", "Sass"],
     "github": "https://github.com/vipul022/sotrpc_client",
     "deployed": "https://southoftheriverpottersclub.herokuapp.com/",
     "image": "images/projects/sotrpc.png",
-    "imageAlt": "South of The River Potters Club website"
-
+    "imageAlt": "South of The River Potters Club website",
+    "currentWebsite":"http://members.iinet.net.au/~atwelart/SORPC/index.html"
     },
 
-    {
-    "name": "Express Chat",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
-    "icons": ["JavaScript" ,"MongoDB", "Express", "NodeJS", "HTML5", "CSS3"],
-    "github": "https://github.com/vipul022/chat-app",
-    "deployed": "https://calm-crag-33201.herokuapp.com/",
-    "image": "images/projects/express-chat.png",
-    "imageAlt": "Express Chat app"
 
-    },
 
     {
     "name": "Weather or Not",
@@ -41,10 +25,22 @@
     "github": "https://github.com/vipul022/hackathon",
     "deployed": "https://www.jasonstacy.com.au/src/assets/weather_or_not/",
     "image": "images/projects/weather-app.png",
-    "imageAlt": "Weather or Not website"
+    "imageAlt": "Weather or Not website",
+    "currentWebsite": ""
 
     },
 
+    {
+      "name": "Express Chat",
+      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+      "icons": ["JavaScript" ,"MongoDB", "Express", "NodeJS", "HTML5", "CSS3"],
+      "github": "https://github.com/vipul022/chat-app",
+      "deployed": "https://calm-crag-33201.herokuapp.com/",
+      "image": "images/projects/express-chat.png",
+      "imageAlt": "Express Chat app",
+      "currentWebsite": ""
+  
+      },
     {
     "name": "FarmerSmart",
     "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
@@ -53,8 +49,8 @@
     "github": "https://github.com/vipul022/farmersmart-",
     "deployed": "https://secure-brook-35449.herokuapp.com/",
     "image": "images/projects/farmer-smart.png",
-    "imageAlt": " Farmer Smart website"
-
+    "imageAlt": " Farmer Smart website",
+    "currentWebsite": ""
     },
 
     {
@@ -64,7 +60,8 @@
     "github": "https://github.com/vipul022/vipul022-my-portfolio",
     "deployed": "https://vipulseth.netlify.app/",
     "image": "images/projects/portfolio-v1.png",
-    "imageAlt": "Portfolio Version-1 website"
+    "imageAlt": "Portfolio Version-1 website",
+    "currentWebsite": ""
 
     }
 ]

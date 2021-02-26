@@ -16,6 +16,7 @@ const ProjectItem = ({ project }) => {
     icons,
     github,
     deployed,
+    currentWebsite,
   } = project;
   return (
     <Grid container spacing={4} className="u-margin-bottom-big">
@@ -27,7 +28,10 @@ const ProjectItem = ({ project }) => {
         <Fade right distance={"4rem"} delay={1000}>
           <Paper elevation={3} className="card-project-info">
             <HeadingTertiary heading={name} />
-            <ProjectDescription description={description} />
+            <ProjectDescription
+              description={description}
+              currentWebsite={currentWebsite}
+            />
             <Icons iconList={icons} />
             {/* <ArrowRightAltIcon /> */}
             <Grid container={true} spacing={2} justify="flex-start">

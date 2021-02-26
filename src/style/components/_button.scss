@@ -43,13 +43,13 @@
   &:visited {
     font-size: 1.25rem;
     font-weight: 700;
-    // color: $color-primary-light-1;
+    color: $color-primary-light-1;
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid $color-primary-light;
     padding: 5px;
     transition: all 0.4s;
-    margin-bottom: 1rem;
+    // margin-bottom: .25rem;
     backface-visibility: hidden;
     cursor: pointer;
 
@@ -57,13 +57,14 @@
   }
   &:hover {
     transform: translateX(3px);
+
     border-bottom: hidden;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
   }
 
-  &:active {
-    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
-    transform: translateY(0);
-  }
+  // &:active {
+  //   box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+  //   transform: translateY(0);
+  // }
 }
