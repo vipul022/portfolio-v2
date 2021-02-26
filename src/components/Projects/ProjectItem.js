@@ -1,35 +1,26 @@
 import React from "react";
-import  HeadingTertiary  from "../Headings/HeadingTertiary";
+import HeadingTertiary from "../Headings/HeadingTertiary";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
+import Icons from "./Icons";
 
-import { Container, Grid, Paper } from "@material-ui/core";
+import { Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
 
 const ProjectItem = ({ project }) => {
+  const { image, imageAlt, name, description, icons } = project;
   return (
-    <Grid container spacing={6} className="u-margin-bottom-big">
+    <Grid container spacing={4} className="u-margin-bottom-big">
       <Grid item xs={12} md={7} sm={12}>
-        <ProjectImage ImageSrc={project.image} ImageAlt={project.imageAlt} />
+        <ProjectImage ImageSrc={image} ImageAlt={imageAlt} />
       </Grid>
 
       <Grid item xs={12} md={5} sm={12}>
         <Fade right distance={"4rem"} delay={1000}>
           <Paper elevation={3} className="card-project-info">
-            <HeadingTertiary>{project.name}</HeadingTertiary>
-            <ProjectDescription>{project.description}</ProjectDescription>
-
-            {/* <Grid container={true} justify={"space-evenly"} spacing={2}>
-              <Grid item={true} className="icon">
-                <i class="devicon-react-original-wordmark colored"></i>
-              </Grid>
-              <Grid item={true} className="icon">
-                <i class="devicon-sass-original colored"></i>
-              </Grid>
-              <Grid item={true} className="icon">
-                <i class="devicon-materialui-plain colored"></i>
-              </Grid>
-            </Grid> */}
+            <HeadingTertiary heading={name} />
+            <ProjectDescription description={description} />
+            <Icons iconList={icons} />
           </Paper>
         </Fade>
       </Grid>

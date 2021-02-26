@@ -7,7 +7,6 @@ import { Container } from "@material-ui/core";
 
 // ! iterate through the project list and pass each project as prop to ProjectItem
 const ProjectList = () => {
-  console.log("ProjectData=>", ProjectData);
   const content = ProjectData.map((p, index) => (
     <ProjectItem key={index} project={p} />
   ));
