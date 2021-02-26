@@ -3,7 +3,7 @@ import HeadingTertiary from "../Headings/HeadingTertiary";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
 import Icons from "./Icons";
-
+import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import { Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
 
@@ -21,6 +21,19 @@ const ProjectItem = ({ project }) => {
             <HeadingTertiary heading={name} />
             <ProjectDescription description={description} />
             <Icons iconList={icons} />
+            {/* <ArrowRightAltIcon /> */}
+            <Grid container={true} spacing={2} justify="flex-start">
+              <Grid item={true}>
+                <a href="#" className="btn-text">
+                  GO LIVE
+                </a>
+              </Grid>
+              <Grid item={true}>
+                <a href="#" className="btn-text">
+                  SOURCE CODE
+                </a>
+              </Grid>
+            </Grid>
           </Paper>
         </Fade>
       </Grid>
