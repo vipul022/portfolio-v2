@@ -3,18 +3,30 @@
 .footer {
   padding: 8rem 0;
   font-size: $default-font-size;
-  background-image: linear-gradient(
-    to right bottom,
-    $color-primary-light-1,
-    $color-primary-dark
-  );
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   $color-primary-light-1,
+  //   $color-primary-dark
+  // );
+  background-color: $color-primary-light-1;
   color: $color-white;
-  text-align: center;
 
-  &__social-links {
-    border-top: 1px solid $color-white;
+  &__divider {
+    margin-top: 1rem;
+    border: none;
+    width: 90%;
+    border-top: 2px solid rgba($color-grey-dark, 0.2);
   }
 
+  &__social-link {
+    font-size: 2.5rem;
+
+    a {
+      text-decoration: none;
+      color: $color-white;
+      margin: 1.5rem;
+    }
+  }
 
   &__back-to-top {
     font-size: 2.5rem;
