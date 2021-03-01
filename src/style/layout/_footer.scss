@@ -1,7 +1,7 @@
 @import "../abstracts/variables";
 
 .footer {
-  padding: 10rem 0;
+  padding: 8rem 0;
   font-size: $default-font-size;
   background-image: linear-gradient(
     to right bottom,
@@ -13,5 +13,10 @@
 
   &__social-links {
     border-top: 1px solid $color-white;
+  }
+
+
+  &__back-to-top {
+    font-size: 2.5rem;
   }
 }

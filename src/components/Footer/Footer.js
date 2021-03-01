@@ -1,17 +1,17 @@
 import React from "react";
 import { Container, Grid } from "@material-ui/core";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
+
+import { IoChevronUpSharp } from "react-icons/io5";
+import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <Container>
         <Grid container direction="column">
-          <Grid itemProp className="footer__up-arrow">
-            <KeyboardArrowUpIcon />
+          <Grid itemProp className="footer__back-to-top">
+            <IoChevronUpSharp />
           </Grid>
           <Grid item>
             <h1 className="footer__heading">REACH OUT</h1>
@@ -25,17 +25,17 @@ const Footer = () => {
             alignItems="center"
             className="footer__social-links"
           >
-            <Grid item>
-              <LinkedInIcon />
+            <Grid item className="footer__social-link">
+              <FaLinkedin />
             </Grid>
             <Grid item>
-              <GitHubIcon />
+              <FaGithub />
             </Grid>
             <Grid item>
-              <EmailIcon />
+              <IoMailOutline />
             </Grid>
             <Grid item>
-              <PhoneIcon />
+              <FaPhone />
             </Grid>
           </Grid>
         </Grid>
