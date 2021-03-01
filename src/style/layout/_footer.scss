@@ -44,7 +44,18 @@
 
   &__back-to-top {
     font-size: 2.5rem;
+
     padding: 2rem;
+    transition: all 0.5s;
+
+    &:visited {
+      text-decoration: none;
+      color: $color-white;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 
