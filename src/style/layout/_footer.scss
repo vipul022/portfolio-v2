@@ -1,0 +1,17 @@
+@import "../abstracts/variables";
+
+.footer {
+  padding: 10rem 0;
+  font-size: $default-font-size;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light-1,
+    $color-primary-dark
+  );
+  color: $color-white;
+  text-align: center;
+
+  &__social-links {
+    border-top: 1px solid $color-white;
+  }
+}

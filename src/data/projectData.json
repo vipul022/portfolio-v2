@@ -55,7 +55,7 @@
 
     {
     "name": "Portfolio Version-1",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
+    "description":"This is version-1 of my portfolio which is built using HTML and CSS only. This website was made to consolidate my HTML and CSS skills. Another purpose of this website is to present a short introduction, an online resume of my work, skills and contact information to the prospective employers. It is deployed on Netlify.",
     "icons": ["HTML5", "CSS3"],
     "github": "https://github.com/vipul022/vipul022-my-portfolio",
     "deployed": "https://vipulseth.netlify.app/",
