@@ -12,7 +12,7 @@ const Footer = () => {
         <Grid container>
           <Grid container xs></Grid>
 
-          <Grid container xs={8} direction={"column"} alignItems={"center"}>
+          <Grid container xs={10} direction="column" alignItems="center">
             <Grid item className="footer__back-to-top">
               <IoChevronUpSharp />
             </Grid>
@@ -22,12 +22,7 @@ const Footer = () => {
 
             <hr class="footer__divider"></hr>
 
-            <Grid
-              container
-              direction="row"
-              justify="center"
-              className="footer__social-links"
-            >
+            <Grid container direction="row" justify="center">
               <Grid item className="footer__social-link">
                 <a
                   href="https://www.linkedin.com/in/vipul-seth-a06730184/"
@@ -53,7 +48,13 @@ const Footer = () => {
                 </a>
               </Grid>
             </Grid>
+            <Grid item className="copyright">
+                <p className="copyright__text">
+                 Copyright © Vipul Seth 2021
+                </p>
+              </Grid>
           </Grid>
+
           <Grid container xs></Grid>
         </Grid>
       </Container>
