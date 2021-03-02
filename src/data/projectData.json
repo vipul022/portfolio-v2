@@ -1,70 +1,67 @@
 
 
 [
-    {
-      "name": "Portfolio Version-2",
-      "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
-      "icons": ["React", "Sass", "MaterialUI"],
-      "github": "https://github.com/vipul022/portfolio-v2",
-      "deployed": "",
-      "image": "images/projects/portfolio-v2.png",
-      "imageAlt": "Portfolio version-2 website"
-      
-    },
+   
 
     {
-    "name": "MERN icons App",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "name": "South of The River Potters Club",
+    "description": " A website for South of The River Potters Club (SOTRPC) which is located in Alfred Cove, Western Australia.  They currently have a website which is linked below but were looking to make it better with additional features. This website is built in MERN stack and integrated with AWS S3 and Mongo DB Atlas and meet all their needs."
+    
+     ,
     "icons": ["MongoDB", "Express", "React", "NodeJS", "AWS", "Sass"],
     "github": "https://github.com/vipul022/sotrpc_client",
     "deployed": "https://southoftheriverpottersclub.herokuapp.com/",
     "image": "images/projects/sotrpc.png",
-    "imageAlt": "South of The River Potters Club website"
-
+    "imageAlt": "South of The River Potters Club website",
+    "currentWebsite":"http://members.iinet.net.au/~atwelart/SORPC/index.html"
     },
 
-    {
-    "name": "Express Chat",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
-    "icons": ["JavaScript" ,"MongoDB", "Express", "NodeJS", "HTML5", "CSS3"],
-    "github": "https://github.com/vipul022/chat-app",
-    "deployed": "https://calm-crag-33201.herokuapp.com/",
-    "image": "images/projects/express-chat.png",
-    "imageAlt": "Express Chat app"
 
-    },
 
     {
     "name": "Weather or Not",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing ",
+    "description":"Jason Stacy and I made this web-app for a 2.5 day JavaScript Hackathon using Git forking workflow. We have used weatherbit API but it required an API key but we thought this would be a good practice to try using a key with Axios. The website takes two parameters - city name and country code. It then displays the current weather and the forecast for the upcoming week.",
     "icons": ["JavaScript", "HTML5", "CSS3"],
     "github": "https://github.com/vipul022/hackathon",
     "deployed": "https://www.jasonstacy.com.au/src/assets/weather_or_not/",
     "image": "images/projects/weather-app.png",
-    "imageAlt": "Weather or Not website"
+    "imageAlt": "Weather or Not website",
+    "currentWebsite": ""
 
     },
 
     {
+      "name": "Express Chat",
+      "description":"  I made this web-app along with Lachlyn Reynolds using Git forking workflow while participating in a 2.5-day Express JS Hackathon. This is a real-time chat application built on Express JS server. We have used Socket.IO which is a JavaScript library to enable real-time and bi-directional communication. The authentication is set up using Passport.",
+      "icons": ["JavaScript" ,"MongoDB", "Express", "NodeJS", "HTML5", "CSS3"],
+      "github": "https://github.com/vipul022/chat-app",
+      "deployed": "https://calm-crag-33201.herokuapp.com/",
+      "image": "images/projects/express-chat.png",
+      "imageAlt": "Express Chat app",
+      "currentWebsite": ""
+  
+      },
+    {
     "name": "FarmerSmart",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
+    "description":"FarmerSmart is a fake two-sided market place web-app built on Ruby on Rails and PostgreSQL. The app provides an online platform for farmers and customers to connect with each other. Stripe has been used to provide a safe and secure transaction system. The app is also integrated with the AWS S3 bucket for uploading the images. ",
 
     "icons": ["Rails", "PostgreSQL", "Aws", "Bootstrap"],
     "github": "https://github.com/vipul022/farmersmart-",
     "deployed": "https://secure-brook-35449.herokuapp.com/",
     "image": "images/projects/farmer-smart.png",
-    "imageAlt": " Farmer Smart website"
-
+    "imageAlt": " Farmer Smart website",
+    "currentWebsite": ""
     },
 
     {
     "name": "Portfolio Version-1",
-    "description":"Lorem ipsum dolor sit, amet consectetur adipisicing",
+    "description":"This is version-1 of my portfolio which is built using HTML and CSS only. This website was made to consolidate my HTML and CSS skills. Another purpose of this website is to present a short introduction, an online resume of my work, skills and contact information to the prospective employers. It is deployed on Netlify.",
     "icons": ["HTML5", "CSS3"],
     "github": "https://github.com/vipul022/vipul022-my-portfolio",
     "deployed": "https://vipulseth.netlify.app/",
     "image": "images/projects/portfolio-v1.png",
-    "imageAlt": "Portfolio Version-1 website"
+    "imageAlt": "Portfolio Version-1 website",
+    "currentWebsite": ""
 
     }
 ]

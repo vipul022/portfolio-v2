@@ -4,16 +4,16 @@
   height: 100vh;
   // padding: 6rem;
   font-size: $default-font-size;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba($color-primary-light-1, 0.8),
-    rgba($color-primary-dark, 0.8)
-  );
   // background-image: linear-gradient(
   //   to right bottom,
-  //   $color-primary-light-1,
-  //   $color-primary-dark
+  //   rgba($color-primary-light-1, 0.8),
+  //   rgba($color-primary-dark, 0.8)
   // );
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light-1,
+    $color-primary-dark
+  );
   // display: flex;
   // justify-content: center;
   // align-items: center;

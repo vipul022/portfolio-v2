@@ -3,7 +3,7 @@ import { Container } from "@material-ui/core";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header id="header" className="header">
       <Container className="header__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">VIPUL SETH</span>
