@@ -3,7 +3,7 @@ import HeadingTertiary from "../Headings/HeadingTertiary";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
 import Icons from "./Icons";
-import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
+
 import { Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
 
