@@ -1,9 +1,9 @@
 @import "../abstracts/variables";
 body {
   font-family: "Montserrat", sans-serif;
-  // font-weight: 700;
+
   line-height: 1.7;
-  color: $color-grey-dark-3;
+  color: $color-grey-dark-2;
 
   box-sizing: border-box;
 }
@@ -38,14 +38,9 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   display: inline-block;
-  color: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgba($color-primary-light-1, 0.8),
-    rgba($color-primary-dark, 0.8)
-  );
-  // !this will clip the background image to text only
-  -webkit-background-clip: text;
+
+  color: $color-orange;
+
   letter-spacing: 1rem;
   transition: all 0.5s;
 
@@ -56,16 +51,11 @@ body {
 
 .heading-tertiary {
   font-size: 2rem;
-  // text-transform: uppercase;
+
   display: inline-block;
-  color: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgba($color-primary-light-1, 0.8),
-    rgba($color-primary-dark, 0.8)
-  );
-  // !this will clip the background image to text only
-  -webkit-background-clip: text;
+
+  color: $color-primary-light-1;
+
   display: inline-block;
   margin: 0 auto;
   transition: all 0.5s;
@@ -75,15 +65,11 @@ body {
   }
 }
 .text-primary {
-  color: $color-primary-dark;
-  // color: $color-grey-dark-2;
   font-weight: 400;
   font-size: 2rem;
 }
 
 .text-secondary {
-  color: $color-primary-dark;
-  // color: $color-grey-dark-2;
   font-size: 1.5rem;
   font-weight: 400;
 }

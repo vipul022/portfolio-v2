@@ -1,7 +1,7 @@
 import React from "react";
 import SocialLink from "./SocialLink";
 import { Container, Grid } from "@material-ui/core";
-import { IoChevronUpSharp } from "react-icons/io5";
+import { IoIosArrowDropup } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import Fade from "react-reveal/Fade";
@@ -43,7 +43,8 @@ const Footer = () => {
             <Fade bottom distance={"2rem"} delay={300}>
               <Grid item className="footer__back-to-top">
                 <a href="#header" className="footer__back-to-top">
-                  <IoChevronUpSharp />
+                  {/* <IoChevronUpSharp /> */}
+                  <IoIosArrowDropup />
                 </a>
               </Grid>
             </Fade>

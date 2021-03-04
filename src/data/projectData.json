@@ -20,7 +20,7 @@
 
     {
     "name": "Weather or Not",
-    "description":"Jason Stacy and I made this web-app for a 2.5 day JavaScript Hackathon using Git forking workflow. We have used weatherbit API but it required an API key but we thought this would be a good practice to try using a key with Axios. The website takes two parameters - city name and country code. It then displays the current weather and the forecast for the upcoming week.",
+    "description":"I made this web-app along with Jason Stacy for a 2.5 day JavaScript Hackathon using Git forking workflow. We have used weatherbit API but it required an API key but we thought this would be a good practice to try using a key with Axios. The website takes two parameters - city name and country code. It then displays the current weather and the forecast for the upcoming week.",
     "icons": ["JavaScript", "HTML5", "CSS3"],
     "github": "https://github.com/vipul022/hackathon",
     "deployed": "https://www.jasonstacy.com.au/src/assets/weather_or_not/",
