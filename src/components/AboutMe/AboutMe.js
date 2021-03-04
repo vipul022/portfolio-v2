@@ -14,25 +14,27 @@ const AboutMe = () => {
             <Fade bottom distance={"4rem"} delay={600}>
               <div className="u-padding">
                 <p class="text-primary">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                  sed animi quod! A obcaecati delectus ipsa excepturi asperiores
-                  exercitationem eos labore fugit sint! Nesciunt quam corporis
-                  debitis? Sint ipsam tenetur laudantium magnam. Tempora
-                  recusandae, ipsum a dolores error similique doloremque.
+                  I am a recent graduate from Coder Academy,
+                  Melbourne. The course is focused on most in-demand tech stacks like Rails and MERN. I am an enthusiastic and self-starting
+                  software developer with a strong background in business.
                 </p>
                 <p class="text-primary">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                  sed animi quod! A obcaecati delectus ipsa excepturi asperiores
-                  exercitationem eos labore fugit sint! Nesciunt quam corporis
-                  debitis? Sint ipsam tenetur laudantium magnam. Tempora
-                  recusandae, ipsum a dolores error similique doloremque.
+                  In the year 2019, I got my knee injured while playing cricket
+                  and due to that I could not work for four months. I always had
+                  a desire to make my career in IT, so I utilized that time very
+                  well in doing some research and started doing self-study. I
+                  obtained ISTQB certification for software testing during that
+                  period. I continued studying HTML, CSS, and JavaScript from
+                  various online resources. Later, I took a step forward and
+                  enrolled in this course to learn more about Software
+                  development.
                 </p>
                 <p class="text-primary">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                  sed animi quod! A obcaecati delectus ipsa excepturi asperiores
-                  exercitationem eos labore fugit sint! Nesciunt quam corporis
-                  debitis? Sint ipsam tenetur laudantium magnam. Tempora
-                  recusandae, ipsum a dolores error similique doloremque.
+                  I like treating challenges as opportunities and failures as
+                  lessons. I am passionate about Software development and enjoy
+                  working on personal projects. In my leisure, I enjoy watching
+                  tech videos, doing frontend-related online courses and playing
+                  cricket. I thrive on learning new things.
                 </p>
               </div>
             </Fade>

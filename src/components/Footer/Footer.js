@@ -1,9 +1,10 @@
 import React from "react";
 import SocialLink from "./SocialLink";
 import { Container, Grid } from "@material-ui/core";
-import { IoChevronUpSharp } from "react-icons/io5";
+import { IoIosArrowDropup } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
+import Fade from "react-reveal/Fade";
 
 const SocialLinksData = [
   {
@@ -25,9 +26,11 @@ const SocialLinksData = [
 ];
 const Footer = () => {
   const content = SocialLinksData.map((s, index) => (
-    <Grid item className="footer__social-link">
-      <SocialLink data={s} key={index} />
-    </Grid>
+    <Fade bottom distance={"2rem"} delay={900}>
+      <Grid item className="footer__social-link">
+        <SocialLink data={s} key={index} />
+      </Grid>
+    </Fade>
   ));
   return (
     <footer className="footer">
@@ -37,14 +40,19 @@ const Footer = () => {
           <Grid container xs></Grid>
 
           <Grid container xs={10} direction="column" alignItems="center">
-            <Grid item className="footer__back-to-top">
-              <a href="#header" className="footer__back-to-top">
-                <IoChevronUpSharp />
-              </a>
-            </Grid>
-            <Grid item>
-              <h1 className="footer__heading">REACH OUT</h1>
-            </Grid>
+            <Fade bottom distance={"2rem"} delay={300}>
+              <Grid item className="footer__back-to-top">
+                <a href="#header" className="footer__back-to-top">
+                  {/* <IoChevronUpSharp /> */}
+                  <IoIosArrowDropup />
+                </a>
+              </Grid>
+            </Fade>
+            <Fade delay={600}>
+              <Grid item>
+                <h1 className="footer__heading">REACH OUT</h1>
+              </Grid>
+            </Fade>
 
             <hr class="footer__divider"></hr>
 
