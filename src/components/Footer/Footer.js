@@ -4,6 +4,8 @@ import { Container, Grid } from "@material-ui/core";
 import { IoIosArrowDropup } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
+// import { IconContext } from "react-icons";
+
 import Fade from "react-reveal/Fade";
 
 const SocialLinksData = [
@@ -42,10 +44,11 @@ const Footer = () => {
           <Grid container xs={10} direction="column" alignItems="center">
             <Fade bottom distance={"2rem"} delay={300}>
               <Grid item className="footer__back-to-top">
-                <a href="#header" className="footer__back-to-top">
-                  {/* <IoChevronUpSharp /> */}
+                {/* <IconContext.Provider value={{ color: "white" }}> */}
+                <a href="#header">
                   <IoIosArrowDropup />
                 </a>
+                {/* </IconContext.Provider> */}
               </Grid>
             </Fade>
             <Fade delay={600}>
