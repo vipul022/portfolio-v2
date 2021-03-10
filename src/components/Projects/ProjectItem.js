@@ -3,6 +3,8 @@ import HeadingTertiary from "../Headings/HeadingTertiary";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
 import Icons from "./Icons";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 
 import { Grid, Paper } from "@material-ui/core";
 import { Fade } from "react-reveal";
@@ -38,11 +40,13 @@ const ProjectItem = ({ project }) => {
               <Grid item={true}>
                 <a href={deployed} target="_blank" className="btn-text">
                   GO LIVE
+                  <HiOutlineArrowNarrowRight />
                 </a>
               </Grid>
               <Grid item={true}>
                 <a href={github} target="_blank" className="btn-text">
                   SOURCE CODE
+                  <HiOutlineArrowNarrowRight />
                 </a>
               </Grid>
             </Grid>

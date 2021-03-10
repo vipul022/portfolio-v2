@@ -53,7 +53,7 @@ const Footer = () => {
             </Fade>
             <Fade delay={600}>
               <Grid item>
-                <h1 className="footer__heading">REACH OUT</h1>
+                <h1 className="footer__heading">Get In Touch</h1>
               </Grid>
             </Fade>
 
@@ -63,7 +63,7 @@ const Footer = () => {
               {content}
             </Grid>
             <Grid item className="copyright">
-              <p className="copyright__text">Copyright © Vipul Seth 2021</p>
+              <p className="copyright__text"> © 2021 - Vipul Seth </p>
             </Grid>
           </Grid>
           {/* ! dummy gid container to adjust the layout */}
