@@ -1,6 +1,7 @@
 import React from "react";
+import { SocialLinksType } from "./Footer";
 
-const SocialLink = ({ data }) => {
+const SocialLink = ({ data }: { data: SocialLinksType }) => {
   const { link, icon } = data;
   return (
     <>
@@ -10,4 +11,5 @@ const SocialLink = ({ data }) => {
     </>
   );
 };
+
 export default SocialLink;

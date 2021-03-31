@@ -6,14 +6,14 @@ import HeadingSecondary from "../Headings/HeadingSecondary";
 import { Container } from "@material-ui/core";
 
 export interface Project {
-  name: string,
-  description: string,
-  icons: string[],
-  github: string,
-  deployed: string,
-  image: string,
-  imageAlt: string,
-  currentWebsite: string
+  name: string;
+  description: string;
+  icons: string[];
+  github: string;
+  deployed: string;
+  image: string;
+  imageAlt: string;
+  currentWebsite: string;
 }
 
 // ! iterate through the project list and pass each project as prop to ProjectItem
