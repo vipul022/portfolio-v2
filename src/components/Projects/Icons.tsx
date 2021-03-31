@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-const Icons = ({ iconList }) => {
-  const content = iconList.map((icon, index) => (
+const Icons = ({ iconList }: {iconList: string[]}) => {
+  const content: JSX.Element[] = iconList.map((icon: string, index) => (
     <Grid item={true} key={index}>
       <img
         className="icon"

@@ -5,9 +5,20 @@ import HeadingSecondary from "../Headings/HeadingSecondary";
 
 import { Container } from "@material-ui/core";
 
+export interface Project {
+  name: string,
+  description: string,
+  icons: string[],
+  github: string,
+  deployed: string,
+  image: string,
+  imageAlt: string,
+  currentWebsite: string
+}
+
 // ! iterate through the project list and pass each project as prop to ProjectItem
-const ProjectList = () => {
-  const content = ProjectData.map((p, index) => (
+const ProjectList = (): JSX.Element => {
+  const content: JSX.Element[] = ProjectData.map((p: Project, index) => (
     <ProjectItem key={index} project={p} />
   ));
 

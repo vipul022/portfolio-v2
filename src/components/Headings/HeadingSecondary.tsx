@@ -2,7 +2,7 @@ import React from "react";
 //  @ts-ignore
 import { Fade } from "react-reveal";
 
-const HeadingSecondary = ({ children }: { children: String }): JSX.Element => {
+const HeadingSecondary = ({ children }: { children: string }): JSX.Element => {
   return (
     <Fade top distance={"4rem"} delay={300}>
       <div className="u-center-text u-margin-bottom-big">

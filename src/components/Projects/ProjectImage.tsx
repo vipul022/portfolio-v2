@@ -1,8 +1,9 @@
 import React from "react";
+//  @ts-ignore
 import { Fade } from "react-reveal";
 import { Paper } from "@material-ui/core";
 
-const ProjectImage = ({ ImageSrc, ImageAlt }) => {
+const ProjectImage = ({ ImageSrc, ImageAlt }:{ImageSrc: string, ImageAlt: string}) => {
   return (
     <Fade left distance={"4rem"} delay={500}>
       <Paper elevation={3} className="card" >

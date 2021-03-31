@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-const HeadingTertiary = ({ heading }) => {
+const HeadingTertiary = ({ heading }: {heading: string}): JSX.Element => {
   return (
     <Grid container spacing={3}>
       <Grid item xs={12}>
