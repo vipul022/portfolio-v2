@@ -4,11 +4,16 @@ import { Container, Grid } from "@material-ui/core";
 import { IoIosArrowDropup } from "react-icons/io";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
-// import { IconContext } from "react-icons";
 
+//  @ts-ignore
 import Fade from "react-reveal/Fade";
 
-const SocialLinksData = [
+export interface SocialLinksType {
+  link: string;
+  icon: JSX.Element;
+}
+
+const SocialLinksData: SocialLinksType[] = [
   {
     link: "https://www.linkedin.com/in/vipul-seth-a06730184/",
     icon: <FaLinkedin />,
@@ -27,10 +32,10 @@ const SocialLinksData = [
   },
 ];
 const Footer = () => {
-  const content = SocialLinksData.map((s, index) => (
+  const content = SocialLinksData.map((data: SocialLinksType, index) => (
     <Fade bottom distance={"2rem"} delay={900}>
       <Grid item className="footer__social-link">
-        <SocialLink data={s} key={index} />
+        <SocialLink data={data} key={index} />
       </Grid>
     </Fade>
   ));
@@ -57,7 +62,7 @@ const Footer = () => {
               </Grid>
             </Fade>
 
-            <hr class="footer__divider"></hr>
+            <hr className="footer__divider"></hr>
 
             <Grid container direction="row" justify="center">
               {content}

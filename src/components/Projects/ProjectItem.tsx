@@ -4,12 +4,13 @@ import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
 import Icons from "./Icons";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-
+import { Project } from "./ProjectList";
 
 import { Grid, Paper } from "@material-ui/core";
+//  @ts-ignore
 import { Fade } from "react-reveal";
 
-const ProjectItem = ({ project }) => {
+const ProjectItem = ({ project }: {project: Project}): JSX.Element => {
   const {
     image,
     imageAlt,

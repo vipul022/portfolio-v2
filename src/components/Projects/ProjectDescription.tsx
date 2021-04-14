@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-const ProjectDescription = ({ description, currentWebsite }) => {
+const ProjectDescription = ({ description, currentWebsite }: {description: string, currentWebsite: string}): JSX.Element => {
   return (
     <Grid container spacing={3}>
       <Grid item xs={12}>

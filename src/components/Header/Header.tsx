@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@material-ui/core";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
     <header id="header" className="header">
       <Container className="header__text-box">
